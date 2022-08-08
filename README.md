@@ -1,8 +1,9 @@
 # js-and-ts-course
 Curso de JavaScript e TypeScript
-
-  * Projetos
   _____________________________
+  
+ * Projetos
+ 
 - AddContentWithJs
 - calculadoraFunctionConstructor
 - calculadoraFunctionFactory
@@ -11,9 +12,10 @@ Curso de JavaScript e TypeScript
 - NodeListBrowser
 - ProjectIMC
 - Timer
+  _____________________________
+  
+ * Funções em JavaScript
 
-  * Funções em JavaScript
-_____________________________
 - arraiFilterMapReduce
 - arrayConcat
 - arrayFilter
@@ -48,4 +50,4 @@ _____________________________
 - trycatchfinally
 - trycatchthrow
 - ...
- 
+   _____________________________
