@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: rgb(107, 27, 161);
+  --second-color: rgb(231, 255, 50);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.adicionar {
+  background-color: #000;
+  color: var(--second-color);
+  border: 1px solid var(--second-color);
+  border-radius: 5px;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.adicionar:hover {
+  color: #000;
+  background-color: var(--second-color);
+  border: 1px solid #000;
+}
+
+.apagar {
+  background-color: #000;
+  color: var(--second-color);
+  border: 1px solid var(--second-color);
+  border-radius: 5px;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.apagar:hover {
+  color: #000;
+  background-color: var(--second-color);
+  border: 1px solid #000;
+}
+
+.clear-task {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.clear-task:hover {
+  color: #fff;
+  background-color: rgb(161, 27, 27);
+  border-color: rgb(161, 27, 27);
+}
+
+
+
+.valid-paragraph {
+  background-color: rgb(19, 165, 124);
+  padding: 15px 10px;
+}
+
+.invalid-paragraph {
+  background-color: rgb(165, 19, 19);
+  padding: 15px 10px;
+}
+.input {
+  width: 35%;
+  padding: 5px 15px;
+  border: none;
+  border-bottom: 2px solid #000;
+  transition: 0.2s;
+}
+.input:focus {
+  background-color: lightyellow;
+  color: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--second-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: 0.15s;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+  transition-delay: 0.15s;
+}
+
+.paragrafo-resultado, .bad {
+  background: rgb(109, 255, 182);
+  padding: 10px 20px;
+}
+
+.bad {
+  background: rgb(255, 150, 150);
+}
